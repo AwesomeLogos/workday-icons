@@ -1,0 +1,17 @@
+{
+  "name": "workday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE in README.md",
+  "dependencies": {
+    "@workday/canvas-accent-icons-web": "^3.0.10",
+    "@workday/canvas-applet-icons-web": "^2.0.10",
+    "@workday/canvas-system-icons-web": "^3.0.21",
+    "ts-node": "^10.9.2"
+  }
+}
