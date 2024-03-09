@@ -1,0 +1,19 @@
+#
+# _config.yml for AWS Icons
+#
+
+exclude: [ "CNAME", "**/*_src*" ]
+permalink: /blog/:year/:month/:day/:title/index.:output_ext
+production_url: https://workday-icons.svg.zone
+title: Workday Icons
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+redirect_from:
+  json: false
+theme: null
+links:
+  - name: Download originals
+    url: "https://www.npmjs.com/search?q=workday%20icons"
+  - name: Report an issue
+    url: "https://github.com/AwesomeLogos/workday-icons/issues"
